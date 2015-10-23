@@ -1,5 +1,6 @@
 PODS:
-  - AdvertiseChartBoost (0.1.0)
+  - AdvertiseChartBoost (0.1.0):
+    - GamePluginBase
   - Expecta (1.0.3)
   - Expecta+Snapshots (2.0.0):
     - Expecta (~> 1.0)
@@ -9,6 +10,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.5)
   - FBSnapshotTestCase/SwiftSupport (2.0.5):
     - FBSnapshotTestCase/Core
+  - GamePluginBase (0.1.0)
   - Specta (1.0.4)
 
 DEPENDENCIES:
@@ -23,10 +25,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AdvertiseChartBoost: c95f9cc05b7c06885406c247a2eb8622d7eed476
+  AdvertiseChartBoost: 3b3364ea2fb07ce3c339b274c33fa59d07e56d3d
   Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 6917deb01d0556dd544536f9eb34e0cf26f904d5
+  GamePluginBase: ba1c02434b0bca5f27782944ddb6dd4c304cd9fd
   Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
 
 COCOAPODS: 0.38.2

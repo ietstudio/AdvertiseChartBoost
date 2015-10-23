@@ -53,6 +53,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-AdvertiseChartBoost_Tests/AdvertiseChartBoost.framework'
+  install_framework 'Pods-AdvertiseChartBoost_Tests/GamePluginBase.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/Expecta.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/Expecta_Snapshots.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/FBSnapshotTestCase.framework'
@@ -60,6 +61,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-AdvertiseChartBoost_Tests/AdvertiseChartBoost.framework'
+  install_framework 'Pods-AdvertiseChartBoost_Tests/GamePluginBase.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/Expecta.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/Expecta_Snapshots.framework'
   install_framework 'Pods-AdvertiseChartBoost_Tests/FBSnapshotTestCase.framework'

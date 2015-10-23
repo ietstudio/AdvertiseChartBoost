@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5E534736C33ED8A7D296F90"
+               BlueprintIdentifier = "227AB31B39604307230862E7"
                BuildableName = "AdvertiseChartBoost.framework"
                BlueprintName = "AdvertiseChartBoost"
                ReferencedContainer = "container:Pods.xcodeproj">

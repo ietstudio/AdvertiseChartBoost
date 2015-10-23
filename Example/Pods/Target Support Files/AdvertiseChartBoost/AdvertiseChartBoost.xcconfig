@@ -1,0 +1,2 @@
+ADVERTISECHARTBOOST_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/SDK/v554/Chartboost"
+ADVERTISECHARTBOOST_OTHER_LDFLAGS = -framework "Chartboost" -framework "CoreGraphics" -framework "Foundation" -framework "StoreKit" -framework "UIKit"
