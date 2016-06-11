@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdvertiseChartboost_Example' do
+  pod 'AdvertiseChartboost', :path => '../'
+
+  target 'AdvertiseChartboost_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
