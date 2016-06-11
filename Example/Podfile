@@ -1,9 +1,11 @@
-use_frameworks!
+source 'https://github.com/ietstudio/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+# use_frameworks!
 
-target 'AdvertiseChartboost_Example' do
-  pod 'AdvertiseChartboost', :path => '../'
+target 'AdvertiseChartBoost_Example' do
+  pod 'AdvertiseChartBoost', :path => '../'
 
-  target 'AdvertiseChartboost_Tests' do
+  target 'AdvertiseChartBoost_Tests' do
     inherit! :search_paths
 
     

@@ -1,18 +1,27 @@
 //
 //  IETAppDelegate.m
-//  AdvertiseChartboost
+//  AdvertiseChartBoost
 //
-//  Created by gaoyang on 06/11/2016.
+//  Created by gaoyang on 06/09/2016.
 //  Copyright (c) 2016 gaoyang. All rights reserved.
 //
 
 #import "IETAppDelegate.h"
+#import "CBAdvertiseHelper.h"
+#import "IOSSystemUtil.h"
 
 @implementation IETAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    self.window.rootViewController=[storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
+    [[IOSSystemUtil getInstance] setWindow:self.window];
+    [[IOSSystemUtil getInstance] setController:self.window.rootViewController];
+    [[CBAdvertiseHelper getInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 

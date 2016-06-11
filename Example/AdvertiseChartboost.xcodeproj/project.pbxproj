@@ -20,8 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6E082261A5C5CB2297E6AF8E /* Pods_AdvertiseChartboost_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA7060EE9A5609846E1DB3A /* Pods_AdvertiseChartboost_Tests.framework */; };
-		7729DFB26B00C04B1757BDCF /* Pods_AdvertiseChartboost_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E8EAC3E8CB88C015666EF /* Pods_AdvertiseChartboost_Example.framework */; };
+		676D6756B89313219CC67D47 /* libPods-AdvertiseChartBoost_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C1DDD8E10E822AD92C8AC6 /* libPods-AdvertiseChartBoost_Example.a */; };
+		7463805282E3E71ADC9232E9 /* libPods-AdvertiseChartBoost_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FB7AE431684BD3F902CD9A /* libPods-AdvertiseChartBoost_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -31,40 +31,40 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = AdvertiseChartboost;
+			remoteInfo = AdvertiseChartBoost;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		327E8EAC3E8CB88C015666EF /* Pods_AdvertiseChartboost_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseChartboost_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39491FA6790436EEA0DF9F45 /* Pods-AdvertiseChartboost_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartboost_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartboost_Tests/Pods-AdvertiseChartboost_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3CB57D6884B12B33A260D35C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		402BA42332C87D8A12DF2E73 /* Pods-AdvertiseChartboost_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartboost_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartboost_Tests/Pods-AdvertiseChartboost_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* AdvertiseChartboost_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvertiseChartboost_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C1DDD8E10E822AD92C8AC6 /* libPods-AdvertiseChartBoost_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseChartBoost_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7F63B22606480377DC35B3 /* Pods-AdvertiseChartBoost_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartBoost_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartBoost_Example/Pods-AdvertiseChartBoost_Example.release.xcconfig"; sourceTree = "<group>"; };
+		334239D0A58E0058AE96062B /* AdvertiseChartBoost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdvertiseChartBoost.podspec; path = ../AdvertiseChartBoost.podspec; sourceTree = "<group>"; };
+		437C55B7DB98EC5FE6B5A8AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* AdvertiseChartBoost_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvertiseChartBoost_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* AdvertiseChartboost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdvertiseChartboost-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* AdvertiseChartBoost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdvertiseChartBoost-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* AdvertiseChartboost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdvertiseChartboost-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* AdvertiseChartBoost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdvertiseChartBoost-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* IETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IETAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* IETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IETAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* IETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IETViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* IETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IETViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* AdvertiseChartboost_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvertiseChartboost_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* AdvertiseChartBoost_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvertiseChartBoost_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66FAA8A3535E5E13970BD1A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		682128E83817747354AEF676 /* AdvertiseChartboost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdvertiseChartboost.podspec; path = ../AdvertiseChartboost.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		AB43FDC83E52758B44218B6C /* Pods-AdvertiseChartboost_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartboost_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartboost_Example/Pods-AdvertiseChartboost_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFDE66A11F8896C5B66D0554 /* Pods-AdvertiseChartboost_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartboost_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartboost_Example/Pods-AdvertiseChartboost_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FAA7060EE9A5609846E1DB3A /* Pods_AdvertiseChartboost_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseChartboost_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BC6ED28055FFBBF04847E1 /* Pods-AdvertiseChartBoost_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartBoost_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartBoost_Example/Pods-AdvertiseChartBoost_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE94353517392DCA0C99B8D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2FB7AE431684BD3F902CD9A /* libPods-AdvertiseChartBoost_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseChartBoost_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8713570F372691BC546054 /* Pods-AdvertiseChartBoost_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartBoost_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartBoost_Tests/Pods-AdvertiseChartBoost_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD422F0A9D66FB5F41B4AFE1 /* Pods-AdvertiseChartBoost_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseChartBoost_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseChartBoost_Tests/Pods-AdvertiseChartBoost_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7729DFB26B00C04B1757BDCF /* Pods_AdvertiseChartboost_Example.framework in Frameworks */,
+				676D6756B89313219CC67D47 /* libPods-AdvertiseChartBoost_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6E082261A5C5CB2297E6AF8E /* Pods_AdvertiseChartboost_Tests.framework in Frameworks */,
+				7463805282E3E71ADC9232E9 /* libPods-AdvertiseChartBoost_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +97,19 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for AdvertiseChartboost */,
+				6003F593195388D20070C39A /* Example for AdvertiseChartBoost */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				F678728A625D942F68A0AE8F /* Pods */,
+				89AE02358A066F441043FDDF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* AdvertiseChartboost_Example.app */,
-				6003F5AE195388D20070C39A /* AdvertiseChartboost_Tests.xctest */,
+				6003F58A195388D20070C39A /* AdvertiseChartBoost_Example.app */,
+				6003F5AE195388D20070C39A /* AdvertiseChartBoost_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,13 +121,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				327E8EAC3E8CB88C015666EF /* Pods_AdvertiseChartboost_Example.framework */,
-				FAA7060EE9A5609846E1DB3A /* Pods_AdvertiseChartboost_Tests.framework */,
+				28C1DDD8E10E822AD92C8AC6 /* libPods-AdvertiseChartBoost_Example.a */,
+				C2FB7AE431684BD3F902CD9A /* libPods-AdvertiseChartBoost_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for AdvertiseChartboost */ = {
+		6003F593195388D20070C39A /* Example for AdvertiseChartBoost */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* IETAppDelegate.h */,
@@ -138,17 +138,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for AdvertiseChartboost";
-			path = AdvertiseChartboost;
+			name = "Example for AdvertiseChartBoost";
+			path = AdvertiseChartBoost;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* AdvertiseChartboost-Info.plist */,
+				6003F595195388D20070C39A /* AdvertiseChartBoost-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* AdvertiseChartboost-Prefix.pch */,
+				6003F59B195388D20070C39A /* AdvertiseChartBoost-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,20 +175,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				682128E83817747354AEF676 /* AdvertiseChartboost.podspec */,
-				66FAA8A3535E5E13970BD1A5 /* README.md */,
-				3CB57D6884B12B33A260D35C /* LICENSE */,
+				334239D0A58E0058AE96062B /* AdvertiseChartBoost.podspec */,
+				BE94353517392DCA0C99B8D9 /* README.md */,
+				437C55B7DB98EC5FE6B5A8AC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		F678728A625D942F68A0AE8F /* Pods */ = {
+		89AE02358A066F441043FDDF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB43FDC83E52758B44218B6C /* Pods-AdvertiseChartboost_Example.debug.xcconfig */,
-				CFDE66A11F8896C5B66D0554 /* Pods-AdvertiseChartboost_Example.release.xcconfig */,
-				402BA42332C87D8A12DF2E73 /* Pods-AdvertiseChartboost_Tests.debug.xcconfig */,
-				39491FA6790436EEA0DF9F45 /* Pods-AdvertiseChartboost_Tests.release.xcconfig */,
+				98BC6ED28055FFBBF04847E1 /* Pods-AdvertiseChartBoost_Example.debug.xcconfig */,
+				2C7F63B22606480377DC35B3 /* Pods-AdvertiseChartBoost_Example.release.xcconfig */,
+				DA8713570F372691BC546054 /* Pods-AdvertiseChartBoost_Tests.debug.xcconfig */,
+				FD422F0A9D66FB5F41B4AFE1 /* Pods-AdvertiseChartBoost_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -196,45 +196,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* AdvertiseChartboost_Example */ = {
+		6003F589195388D20070C39A /* AdvertiseChartBoost_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartboost_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartBoost_Example" */;
 			buildPhases = (
-				CF7B583AA71107DE9F094CD4 /* [CP] Check Pods Manifest.lock */,
+				9D22E787A9F8AD600B6E1089 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				18CF7D36B6F35B6E81F95009 /* [CP] Embed Pods Frameworks */,
-				F09969A36C91DBA71C0AD2EE /* [CP] Copy Pods Resources */,
+				8F6A82916A43786805DD4CD1 /* [CP] Embed Pods Frameworks */,
+				3FAB6D51CF5314236C41BA41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AdvertiseChartboost_Example;
-			productName = AdvertiseChartboost;
-			productReference = 6003F58A195388D20070C39A /* AdvertiseChartboost_Example.app */;
+			name = AdvertiseChartBoost_Example;
+			productName = AdvertiseChartBoost;
+			productReference = 6003F58A195388D20070C39A /* AdvertiseChartBoost_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* AdvertiseChartboost_Tests */ = {
+		6003F5AD195388D20070C39A /* AdvertiseChartBoost_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartboost_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartBoost_Tests" */;
 			buildPhases = (
-				B0536BC599A14067BE263E44 /* [CP] Check Pods Manifest.lock */,
+				CA080D6781AA298866A494C8 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				C3B10B91EEF555CFD48E7FAD /* [CP] Embed Pods Frameworks */,
-				41F2C0B695AAFD6D6FDCB9FD /* [CP] Copy Pods Resources */,
+				6EB01CB9FDACE5BCEB23F244 /* [CP] Embed Pods Frameworks */,
+				8A0A9B99E6D4E16E628E7F67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = AdvertiseChartboost_Tests;
-			productName = AdvertiseChartboostTests;
-			productReference = 6003F5AE195388D20070C39A /* AdvertiseChartboost_Tests.xctest */;
+			name = AdvertiseChartBoost_Tests;
+			productName = AdvertiseChartBoostTests;
+			productReference = 6003F5AE195388D20070C39A /* AdvertiseChartBoost_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvertiseChartboost" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvertiseChartBoost" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,8 +265,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* AdvertiseChartboost_Example */,
-				6003F5AD195388D20070C39A /* AdvertiseChartboost_Tests */,
+				6003F589195388D20070C39A /* AdvertiseChartBoost_Example */,
+				6003F5AD195388D20070C39A /* AdvertiseChartBoost_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,22 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18CF7D36B6F35B6E81F95009 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartboost_Example/Pods-AdvertiseChartboost_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41F2C0B695AAFD6D6FDCB9FD /* [CP] Copy Pods Resources */ = {
+		3FAB6D51CF5314236C41BA41 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,10 +305,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartboost_Tests/Pods-AdvertiseChartboost_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartBoost_Example/Pods-AdvertiseChartBoost_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0536BC599A14067BE263E44 /* [CP] Check Pods Manifest.lock */ = {
+		6EB01CB9FDACE5BCEB23F244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartBoost_Tests/Pods-AdvertiseChartBoost_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0A9B99E6D4E16E628E7F67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartBoost_Tests/Pods-AdvertiseChartBoost_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6A82916A43786805DD4CD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartBoost_Example/Pods-AdvertiseChartBoost_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D22E787A9F8AD600B6E1089 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,22 +368,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C3B10B91EEF555CFD48E7FAD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartboost_Tests/Pods-AdvertiseChartboost_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF7B583AA71107DE9F094CD4 /* [CP] Check Pods Manifest.lock */ = {
+		CA080D6781AA298866A494C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,21 +381,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F09969A36C91DBA71C0AD2EE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvertiseChartboost_Example/Pods-AdvertiseChartboost_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -409,7 +409,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* AdvertiseChartboost_Example */;
+			target = 6003F589195388D20070C39A /* AdvertiseChartBoost_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -509,13 +509,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB43FDC83E52758B44218B6C /* Pods-AdvertiseChartboost_Example.debug.xcconfig */;
+			baseConfigurationReference = 98BC6ED28055FFBBF04847E1 /* Pods-AdvertiseChartBoost_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AdvertiseChartboost/AdvertiseChartboost-Prefix.pch";
-				INFOPLIST_FILE = "AdvertiseChartboost/AdvertiseChartboost-Info.plist";
+				GCC_PREFIX_HEADER = "AdvertiseChartBoost/AdvertiseChartBoost-Prefix.pch";
+				INFOPLIST_FILE = "AdvertiseChartBoost/AdvertiseChartBoost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,13 +526,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFDE66A11F8896C5B66D0554 /* Pods-AdvertiseChartboost_Example.release.xcconfig */;
+			baseConfigurationReference = 2C7F63B22606480377DC35B3 /* Pods-AdvertiseChartBoost_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AdvertiseChartboost/AdvertiseChartboost-Prefix.pch";
-				INFOPLIST_FILE = "AdvertiseChartboost/AdvertiseChartboost-Info.plist";
+				GCC_PREFIX_HEADER = "AdvertiseChartBoost/AdvertiseChartBoost-Prefix.pch";
+				INFOPLIST_FILE = "AdvertiseChartBoost/AdvertiseChartBoost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,7 +543,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 402BA42332C87D8A12DF2E73 /* Pods-AdvertiseChartboost_Tests.debug.xcconfig */;
+			baseConfigurationReference = DA8713570F372691BC546054 /* Pods-AdvertiseChartBoost_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -558,14 +560,14 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvertiseChartboost_Example.app/AdvertiseChartboost_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvertiseChartBoost_Example.app/AdvertiseChartBoost_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39491FA6790436EEA0DF9F45 /* Pods-AdvertiseChartboost_Tests.release.xcconfig */;
+			baseConfigurationReference = FD422F0A9D66FB5F41B4AFE1 /* Pods-AdvertiseChartBoost_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -578,7 +580,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvertiseChartboost_Example.app/AdvertiseChartboost_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvertiseChartBoost_Example.app/AdvertiseChartBoost_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -586,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvertiseChartboost" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvertiseChartBoost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -595,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartboost_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartBoost_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -604,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartboost_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvertiseChartBoost_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

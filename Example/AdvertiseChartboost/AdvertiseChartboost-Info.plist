@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IETConfigs</key>
+	<dict>
+		<key>ChartBoost_AppId</key>
+		<string>55560bf143150f4409a8c7eb</string>
+		<key>ChartBoost_AppSignature</key>
+		<string>5f6a4cc0976632f47842164c9b76c542e239bc4b</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
