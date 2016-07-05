@@ -97,7 +97,10 @@ SINGLETON_DEFINITION(CBAdvertiseHelper)
 - (void)didFailToLoadInterstitial:(CBLocation)location
                         withError:(CBLoadError)error {
 //    NSLog(@"didFailToLoadInterstitial: %ld", error);
-    [self preloadSpotAd];
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 5*NSEC_PER_SEC);
+    dispatch_after(time, dispatch_get_main_queue(), ^{
+        [self preloadSpotAd];
+    });
 }
 
 - (void)didDismissInterstitial:(CBLocation)location {
@@ -114,7 +117,10 @@ SINGLETON_DEFINITION(CBAdvertiseHelper)
 - (void)didFailToLoadRewardedVideo:(CBLocation)location
                          withError:(CBLoadError)error {
 //    NSLog(@"didFailToLoadRewardedVideo: %ld", error);
-    [self preloadVideoAd];
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 5*NSEC_PER_SEC);
+    dispatch_after(time, dispatch_get_main_queue(), ^{
+        [self preloadVideoAd];
+    });
 }
 
 - (void)didDismissRewardedVideo:(CBLocation)location {
